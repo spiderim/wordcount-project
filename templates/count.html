@@ -1,0 +1,23 @@
+
+  total number of words = {{number}}
+  <h1>
+    TEXT:
+    </h1>
+  <br/>
+{{fulltext}}
+
+<br/>
+<h1>
+  <br/>
+WORDCOUNT:
+<br/>
+<br/>
+{% for wordd, count in worddict %}
+{{wordd}}
+<br/>
+{{count}}
+<br/>
+
+{% endfor %}
+
+</h1>
